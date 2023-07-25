@@ -1,0 +1,42 @@
+@import 'normalize.css';
+:root {
+    --text-color: black;
+    --text-hover: #ff630e;
+}
+.Header {
+    height: 120px;
+}
+.items {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+
+    &:hover {
+        transition: all 0.4s;
+        color: var(--text-hover);
+    }
+
+    
+}
+
+.img_cart {
+    width: 84px;
+    height: 59px;
+}
+
+.cart_img {
+    position: relative;
+}
+.cart_img::before {
+    position: absolute;
+    content: '0';
+    color: #fff;
+    display: block;
+    text-align: center;
+    right: 0;
+    top: px;
+    width: 19px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--text-hover);
+}

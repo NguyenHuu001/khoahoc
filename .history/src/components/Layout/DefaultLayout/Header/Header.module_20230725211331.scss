@@ -1,0 +1,21 @@
+@import 'normalize.css';
+:root{
+
+}
+.Header {
+    height: 120px;
+}
+.items {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+
+    :hover{
+        color: var(tex)
+    };
+}
+
+.img_cart {
+    width: 84px;
+    height: 59px;
+}

@@ -1,0 +1,48 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+.header {
+    z-index: 500;
+    background-color: #fff;
+    height: 100px;
+    top: 0;
+}
+
+.cart_img {
+    position: relative;
+}
+
+.cart_img>img {
+    width: 84px;
+    height: 59px;
+}
+
+.cart_img::before {
+    position: absolute;
+    content: "0";
+    color: #fff;
+    display: block;
+    text-align: center;
+    right: 0;
+    top: 8px;
+    width: 19px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--color-chudao);
+}
+
+.cart_img:hover {
+    cursor: pointer;
+}
+
+.header_items>a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.header_items>a:hover {
+    color: chocolate;
+}
+
+#bars {
+    display: none;
+}

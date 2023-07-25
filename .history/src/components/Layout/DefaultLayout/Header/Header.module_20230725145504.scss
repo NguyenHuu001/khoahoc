@@ -1,0 +1,43 @@
+.container-fluid {
+    z-index: 500;
+    background-color: #fff;
+    height: 100px;
+    top: 0;
+
+    /* Các style khác của class container-fluid */
+
+    .cart_img {
+        position: relative;
+    }
+
+    .cart_img > img {
+        width: 84px;
+        height: 59px;
+    }
+
+    .cart_img::before {
+        position: absolute;
+        content: '0';
+        color: #fff;
+        display: block;
+        text-align: center;
+        right: 0;
+        top: 8px;
+        width: 19px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: var(--color-chudao);
+    }
+
+    .cart_img:hover {
+        cursor: pointer;
+    }
+
+    .header_items-container {
+        display: none;
+    }
+
+    #bars {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+@import 'normalize.css';
+
+.Header{
+    height: 120px;
+}
+.header_items>a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.img_cart{
+    width: 84px;
+    height: 59px;
+}

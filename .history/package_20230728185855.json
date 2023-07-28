@@ -1,5 +1,5 @@
 {
-    "homepage": "https://nguyenhuu001.github.io/khoahoc/",
+    ho
     "name": "khoahoc",
     "version": "0.1.0",
     "private": true,
@@ -34,9 +34,7 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject",
-        "predeploy": "npm run build",
-        "depploy": "gh-pages -d build"
+        "eject": "react-app-rewired eject"
     },
     "eslintConfig": {
         "extends": [

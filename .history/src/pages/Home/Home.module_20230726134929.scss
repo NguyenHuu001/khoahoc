@@ -1,0 +1,60 @@
+:root {
+    --color-text: #322225;
+    --color-chudao: #ff630e;
+    --color-opacity: #97939b;
+    --color-footer: #0e0a38;
+}
+
+.wrap {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+}
+.baner {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.baner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 22, 68, 0.7);
+}
+
+.baner_content {
+    position: absolute;
+    z-index: 1;
+}
+.wrap_content{
+    position: relative;
+    z-index: 3;
+    color: var(--color-chudao);
+    margin-top: 90px;
+    width: 800px;
+    white-space: normal;
+}
+.content_one {
+    font-size: 100%;
+    text-transform: uppercase;
+}
+.content_two{
+    text-align: center;
+    font-size: 70px
+    color: #fff;
+    flex-wrap: wrap;
+}
+.content_three{
+    text-align: center;
+    color: #fff;    
+}
+.content_button > button{
+    padding: 20px;
+}
